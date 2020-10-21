@@ -3,23 +3,23 @@
     cursor: pointer;
 }
 
-.social {
-    fill: coral;
+.lab {
+    fill: coral !important;
     fill-opacity: .5;
 }
 
-.meeting {
-    fill: cyan;
+.office {
+    fill: cyan !important;
     fill-opacity: .5;
 }
 
-.desk {
-    fill: green;
+.class {
+    fill: green !important;
     fill-opacity: .5;
 }
 
-.enclave {
-    fill: darkblue;
+.extra {
+    fill: darkblue !important;
     fill-opacity: .5;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .occupied {
-    fill: red;
+    fill: red !important;
     fill-opacity: .5;
 }
 

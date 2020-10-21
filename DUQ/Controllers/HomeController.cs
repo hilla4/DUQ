@@ -29,6 +29,26 @@ namespace BakerySquared.Controllers
         /// Displays Floor page
         /// </summary>
         /// <returns> view containing floor data</returns>
+        public ActionResult Floor2()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        /// <summary>
+        /// Displays Floor page
+        /// </summary>
+        /// <returns> view containing floor data</returns>
+        public ActionResult Floor3()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        /// <summary>
+        /// Displays Floor page
+        /// </summary>
+        /// <returns> view containing floor data</returns>
         public ActionResult Floor4()
         {
             return View();
@@ -50,16 +70,6 @@ namespace BakerySquared.Controllers
         /// </summary>
         /// <returns> view containing floor data</returns>
         public ActionResult Floor6()
-        {
-            return View();
-        }
-
-        [AllowAnonymous]
-        /// <summary>
-        /// Displays Floor page
-        /// </summary>
-        /// <returns> view containing floor data</returns>
-        public ActionResult Floor7()
         {
             return View();
         }

@@ -1,0 +1,25 @@
+﻿@{
+    string floorPath2 = HttpContext.Current.Server.MapPath("~/Views/Floors/Floor2.svg");
+    string floor2 = File.ReadAllText(floorPath2);
+}
+@Scripts.Render("~/bundles/jqueryui")
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleSVG.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/jQuery-ui.css" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/scripts/scriptSVG.js"></script>
+</head>
+<body>
+    @{
+        Html.RenderPartial("Forms");
+    }
+    <p>Floor 1</p>
+    <div id="map" class="mapContainer">
+        @Html.Raw(floor2);
+    </div>
+</body>
+</html>
